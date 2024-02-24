@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: gilroy;
+}
+@font-face {
+    font-family: gilroy;
+    src: url("/Gilroy-SemiBold.ttf");
+}
+::selection{
+    color: rgb(253, 187, 6);
+}
